@@ -1,0 +1,181 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.kowalix:AutomatedTests[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding AutomatedTests 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mAutomatedTests[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/kali/banan/AutomatedTests/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mAutomatedTests[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/kali/banan/AutomatedTests/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mAutomatedTests[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 1 source file to /home/kali/banan/AutomatedTests/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [1m(default-testResources)[m @ [36mAutomatedTests[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/kali/banan/AutomatedTests/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mAutomatedTests[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 10 source files to /home/kali/banan/AutomatedTests/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M5:test[m [1m(default-test)[m @ [36mAutomatedTests[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;31mERROR[m] Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+[[1;34mINFO[m] Running [1mTestSuite[m
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 26 Jan 2021 21:33:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d2ef5bc8a88a3d2069fd58127e6a529821611696811; expires=Thu, 25-Feb-21 21:33:31 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1611412782
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"e1-wrK4SLERwov0EbpkNAKTHsvGWBs"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 22529
+cf-request-id: 07e236c73d0000d70956946000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=jlDinne93w1W2Y%2FvdAkIuAraEeAiFex69bQptgcf5BPSp9nh48OsldfdihaKqZQyZZX0gseNtkyC7WcpAUdaD9UBw53GvUDvoMiMYBZ4RxfBCF74PMqJBbjY2GVD"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 617d5a51fe23d709-FRA
+Content-Encoding: gzip
+
+{
+    "userId": 1,
+    "id": 7,
+    "title": "magnam facilis autem",
+    "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "this is title",
+    "body": "this is body",
+    "userId": "this is user id"
+}
+HTTP/1.1 201 Created
+Date: Tue, 26 Jan 2021 21:33:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 100
+Connection: keep-alive
+Set-Cookie: __cfduid=da1e2f46775cdad129e230ec698c8431e1611696812; expires=Thu, 25-Feb-21 21:33:32 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1611696820
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"64-Qs5gvaed5Y5WDlRl8YmB8qa3F7c"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 07e236c9540000befb47bfa000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=nYhDuhaNBhuuzjB%2Fg5n6OjHZP5Wnb%2FWX6hjY1EvLxY3hUIZVMVS09uPk%2BIsDR5BEB0HovthsQxM%2Bk62fOgxIwst%2FyvFa5ZtFG%2BG2FSiMMUpkCljxgfVDpg0%2FFIb9"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 617d5a555f26befb-FRA
+
+{
+    "title": "this is title",
+    "body": "this is body",
+    "userId": "this is user id",
+    "id": 101
+}
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m12[m, [1;31mFailures: [0;1;31m3[m, Errors: 0, [1;33mSkipped: [0;1;33m6[m, Time elapsed: 10.098 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] com.kowalix.ui.tests.UICase1.setUp  Time elapsed: 0.665 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/kali/banan/AutomatedTests/./utilities/geckodriver
+
+[[1;31mERROR[m] com.kowalix.ui.tests.UICase2.setUp  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/kali/banan/AutomatedTests/./utilities/geckodriver
+
+[[1;31mERROR[m] com.kowalix.ui.tests.UICase3.setUp  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/kali/banan/AutomatedTests/./utilities/geckodriver
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  UICase1>TestBase.setUp:12 » IllegalState The driver is not executable: /home/k...[m
+[[1;31mERROR[m] [1;31m  UICase2>TestBase.setUp:12 » IllegalState The driver is not executable: /home/k...[m
+[[1;31mERROR[m] [1;31m  UICase3>TestBase.setUp:12 » IllegalState The driver is not executable: /home/k...[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 12, Failures: 3, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  19.449 s
+[[1;34mINFO[m] Finished at: 2021-01-26T16:33:33-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test[m [1m(default-test)[m on project [36mAutomatedTests[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /home/kali/banan/AutomatedTests/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mPlease refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
